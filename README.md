@@ -12,7 +12,7 @@ Key functionality includes the ability to:
 Setup:
 -------
 ```
-git clone [url of repo]
+git clone https://github.com/DeepaDhiman/top-score-ranking-app.git
 bundle
 bin/rake db:create
 bin/rake db:migrate
@@ -30,6 +30,12 @@ Technologies Used:
 - Tested using [RSpec](http://rspec.info/)
 - [Vuejs] (https://vuejs.org/)
 ```
+
+Improvements & known defects:
+-------
+- Pagination Design is not proper
+- Code Refactoring on Vue Js side
+
 
 Screenshots:
 -------
