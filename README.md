@@ -31,6 +31,10 @@ Technologies Used:
 - [Vuejs] (https://vuejs.org/)
 ```
 
+Postman Details:
+-------
+- Public Link for Postman Collection (https://www.getpostman.com/collections/3dc720734b9c4e4fbac1)
+
 Improvements & known defects:
 -------
 - Pagination Design is not proper
