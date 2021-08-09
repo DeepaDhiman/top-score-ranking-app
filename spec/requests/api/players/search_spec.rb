@@ -4,15 +4,15 @@ require "rails_helper"
 RSpec.describe "GET /search", type: :request do
   context "search" do
 
-    let!(:player) { create(:player, name: "PlayerX") }
+    let!(:player) { create(:player, name: "playerx") }
     let!(:score1) { create(:score, score: 20, player: player ) }
     let!(:score2) { create(:score, score: 19, time: "2020/11/02", player: player ) }
 
-    let!(:player1) { create(:player, name: "PlayerY") }
+    let!(:player1) { create(:player, name: "playery") }
     let!(:score3) { create(:score, score: 20, time: "2020/10/01", player: player1 ) }
     let!(:score4) { create(:score, score: 19, time: "2021/11/02", player: player1 ) }
 
-    let!(:player2) { create(:player, name: "PlayerZ") }
+    let!(:player2) { create(:player, name: "playerz") }
     let!(:score5) { create(:score, score: 20, time: "2020/09/01", player: player2 ) }
     let!(:score6) { create(:score, score: 19, time: "2021/11/02", player: player2 ) }
 

@@ -96,7 +96,7 @@ players = [
 
 players.each do |player|
   new_player = Player.create(
-    name: player[:name]
+    name: player[:name].downcase
   )
   
   player[:scores].each do |score|

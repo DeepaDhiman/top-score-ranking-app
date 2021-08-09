@@ -72,7 +72,7 @@ export default {
       if (this.name) {
         try {
           const response = await axios.post("http://localhost:3000/search.json", 
-            { "name": this.name }
+            { "name": [this.name] }
           );
 
           this.searchResult = response.data;
